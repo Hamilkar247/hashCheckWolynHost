@@ -1,5 +1,7 @@
 import logging
 import argparse
+import hashlib
+import sys
 
 def def_params():
     parser = argparse.ArgumentParser(
@@ -12,9 +14,9 @@ def def_params():
         print("args:" + str(args))
     return args
 
-
 def main():
     args=def_params()
+    print("ahjo")
 
 if __name__ == "__main__":
     main()
